@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Data</title>
+    <!-- <link rel="stylesheet" href="background_styles.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="rendorMovie()">
+    <header>
+      <nav class="navbar">
+        <div class="brand-title">Code Cinema</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <button id="home-btn">
+              <li><a href="#">Home</a></li>
+            </button>
+            <button class="alphabet">
+              <li><a href="#">Alphabet</a></li>
+            </button>
+            <button class="number">
+              <li><a href="#">Years</a></li>
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="flexbox-container" id="movieList"></section>
+    <script src="script.js"></script>
+  </body>
+</html>
